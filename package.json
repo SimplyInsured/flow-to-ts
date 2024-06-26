@@ -1,12 +1,16 @@
 {
-  "name": "@khanacademy/flow-to-ts",
-  "version": "0.5.2",
+  "name": "@simplyinsured/flow-to-ts",
+  "version": "0.5.3",
   "publishConfig": {
     "access": "public"
   },
+  "engines": {
+    "node": "16.x"
+  },
+  "engineStrict": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/khan/flow-to-ts"
+    "url": "https://github.com/simplyinsured/flow-to-ts"
   },
   "main": "dist/convert.js",
   "bin": {
